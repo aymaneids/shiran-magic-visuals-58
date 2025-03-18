@@ -98,7 +98,7 @@
   
   .button-shine::before {
     content: '';
-    @apply absolute top-0 left-[-100%] w-full h-full bg-white/20 transform skew(-30deg);
+    @apply absolute top-0 left-[-100%] w-full h-full bg-white/20 -skew-x-30;
     transition: all 0.6s ease;
   }
   
